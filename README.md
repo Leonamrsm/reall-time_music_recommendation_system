@@ -12,3 +12,5 @@ https://research.atspotify.com/datasets
 ## Tools and APIs used in this project
 
 * Python with jupyter notebook using Anaconda which simplifies package management.
+
+* Apache Streaming for real-time data processing.
