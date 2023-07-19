@@ -8,3 +8,7 @@ For this, 2 data streams were used:
 https://research.atspotify.com/datasets
 
 * Stream 2 – The user's music preferences will be extracted directly from Spotify with the free API provided by the company.
+
+## Tools and APIs used in this project
+
+* Python with jupyter notebook using Anaconda which simplifies package management.
