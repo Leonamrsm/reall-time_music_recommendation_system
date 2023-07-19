@@ -13,4 +13,8 @@ https://research.atspotify.com/datasets
 
 * Python with jupyter notebook using Anaconda which simplifies package management.
 
-* Apache Streaming for real-time data processing.
+* Apache Kafka for data streaming management, being an abstraction and management layer that facilitates scalability, fault tolerance and efficient processing of large volumes of data in real time.
+
+* Docker being a lighter and more efficient alternative to traditional virtual machines, allowing applications to run in independent containers, sharing the same kernel as the host operating system. This results in less resource overhead and faster application deployment.
+
+* Spotfy web API to extract user music preferences.
