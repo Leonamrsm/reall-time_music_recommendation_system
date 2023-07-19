@@ -18,3 +18,6 @@ https://research.atspotify.com/datasets
 * Docker being a lighter and more efficient alternative to traditional virtual machines, allowing applications to run in independent containers, sharing the same kernel as the host operating system. This results in less resource overhead and faster application deployment.
 
 * Spotfy web API to extract user music preferences.
+
+
+<img src="images/solution_architecture.png" alt="Descrição da imagem" width="1000" height="450">
