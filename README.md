@@ -20,4 +20,4 @@ https://research.atspotify.com/datasets
 * Spotfy web API to extract user music preferences.
 
 
-<img src="imges/solution_architecture.png" alt="Descrição da imagem" width="1000" height="450">
+<img src="images/solution_architecture.png" alt="Descrição da imagem" width="1000" height="450">
