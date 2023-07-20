@@ -45,3 +45,5 @@ A topic in Apache Kafka is a category of messages or a "log file" that is manage
 Apache Kafka acts as a distributed messaging system, allowing different components of a system to communicate asynchronously and efficiently across threads. Topics can have multiple partitions, which allows for scalability and parallel processing of messages.
 
 Thus, when using a producer in Python to send messages to the topic in Kafka, you can later process them through a consumer with Spark Streaming or any other technology that supports reading streaming data from Kafka. This approach is widely used in real-time data and processing architectures, allowing the creation of scalable and fault-tolerant data pipelines.
+
+Execute in the terminal the commands present in the file `02-create_and_list_topic_kafka.txt` to create and view the Kafka topic.
