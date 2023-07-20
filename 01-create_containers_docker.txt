@@ -1,0 +1,10 @@
+# Creating Docker Containers for the Apache Kafka Cluster
+
+
+# Open the command prompt or terminal, navigate to the folder where the project files are and run the command below:
+
+docker-compose up -d
+
+# To shut down the Kafka cluster run:
+
+docker-compose down
