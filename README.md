@@ -74,7 +74,7 @@ Next, a song extracted from Spotfy is concatenated with songs extracted from Kaf
 
 Only the k means clustering model with k equal to 3 was trained. After grouping the songs into 3 different groups, a function was created to select the song that has the shortest distance from the song extracted from the Spotify API.
 
-For example, the song `Stranger` by the band `MildOrange` was recommended after selecting the song 'Quarter' by the band 'Fuel' from the songs marked as 'liked' from my Spotify account.
+For example, the song `Stranger` by the band `MildOrange` was recommended after selecting the song `Quarter` by the band `Fuel` from the songs marked as 'liked' from my Spotify account.
 
 ![](images/rec_song.png)
 
