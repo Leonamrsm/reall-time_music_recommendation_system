@@ -66,4 +66,8 @@ Below are the results of the songs processed as a Spark dataframe, after being e
 
 ## Consuming Real Time Data with Spark Streaming from Spotfy via API
 
-Após extrais od dados do kafka no mesmo notebook `Mini-Projeto7-Parte2.ipynb`são consumidos dados em tempo real utilizando Spark streaming de uma API fornecida pelo Spotfy. Para testar você deve ter acesso a uma conta do Spotfy e dar like em músicas do seu interesse.
+notebook `Mini-Projeto7-Parte2.ipynb` data is consumed in real time using Spark streaming from an API provided by Spotfy. To test it, you must have access to a Spotify account and like songs that interest you.
+
+Next, a song extracted from Spotfy is concatenated with songs extracted from Kafka. Following the pipeline the data is normalized before training the ML model.
+
+## Machine Learning Modeling
