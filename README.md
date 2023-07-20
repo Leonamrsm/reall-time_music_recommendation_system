@@ -29,9 +29,9 @@ After cloning the repository, Apache Kafka can be installed using a docker conta
 
 This will run the script from the 'docker-compose.yml' file, which contains instructions for creating two docker containers:
 
-zookeeper: This container will act as the Kafka cluster manager.
+1. zookeeper: This container will act as the Kafka cluster manager.
 
-kafka: This container will contain the Kafka cluster with a single broker and will provide a log file to record streaming data.
+2. kafka: This container will contain the Kafka cluster with a single broker and will provide a log file to record streaming data.
 
 The 'kafka' service depends on the 'zookeeper' service, ensuring that the zookeeper container is running before starting the Kafka cluster.
 
