@@ -25,7 +25,7 @@ https://research.atspotify.com/datasets
 
 ### Creating Docker Containers for the Apache Kafka Cluster
 
-After cloning the repository, Apache Kafka can be installed using a docker container. Having docker installed, follow the steps described in the file '01-create_containers_docker.txt' to create docker containers for the Apache KafKa cluster.
+After cloning the repository, Apache Kafka can be installed using a docker container. Having docker installed, follow the steps described in the file `01-create_containers_docker.txt` to create docker containers for the Apache KafKa cluster.
 
 This will run the script from the 'docker-compose.yml' file, which contains instructions for creating two docker containers:
 
