@@ -26,3 +26,13 @@ https://research.atspotify.com/datasets
 ### Creating Docker Containers for the Apache Kafka Cluster
 
 After cloning the repository, Apache Kafka can be installed using a docker container. Having docker installed, follow the steps described in the file '01-create_containers_docker.txt' to create docker containers for the Apache KafKa cluster.
+
+This will run the script from the 'docker-compose.yml' file, which contains instructions for creating two docker containers:
+
+zookeeper: This container will act as the Kafka cluster manager.
+
+kafka: This container will contain the Kafka cluster with a single broker and will provide a log file to record streaming data.
+
+The 'kafka' service depends on the 'zookeeper' service, ensuring that the zookeeper container is running before starting the Kafka cluster.
+
+Ports 2181 and 9092 are being mapped to host ports so you can access Docker services outside of containers."
