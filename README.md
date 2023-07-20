@@ -76,6 +76,6 @@ Only the k means clustering model with k equal to 3 was trained. After grouping 
 
 For example, the song `Stranger` by the band `MildOrange` was recommended after selecting the song 'Quarter' by the band 'Fuel' from the songs marked as 'liked' from my Spotify account.
 
-![](images/spark_songs.png)
+![](images/rec_song.png)
 
 Note that there is a certain similarity in the attributes of the two songs. Better results can be obtained if the 'producer' can work with more songs. Other clustering algorithms would probably return better results.
