@@ -1,4 +1,4 @@
-<URL>
+
 
 # Reall-time Music Recommendation System
 
@@ -56,4 +56,4 @@ In the file Mini-Projeto7-Parte1.ipynb, the Kafka Producer was implemented in Py
 
 The idea of the project is to read the user's music preferences on Spotfy and recommend one more song from the list of songs sent by the producer. The dataset used to create the playlist comes from Spotfy itself, through the link:
 
-```<https://research.atspotify.com/datasets>```
+https://research.atspotify.com/datasets
