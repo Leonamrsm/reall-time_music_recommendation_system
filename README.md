@@ -62,4 +62,4 @@ In the file `Mini-Projeto7-Parte2.ipynb` the data stream is consumed from kafka.
 
 The consumed data is then processed. The user's preferences are also consumed in the same file from Spotify's own API. Then an ML model was built to finally obtain a recommendation system.
 
-![](imgages/spark_songs.png)
+![](images/spark_songs.png)
