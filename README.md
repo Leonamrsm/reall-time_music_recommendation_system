@@ -52,6 +52,6 @@ Execute in the terminal the commands present in the file `02-create_and_list_top
 
 ## Kafka Producer
 
-In the file Mini-Projeto7-Parte1.ipynb, the Kafka Producer was implemented in Python and is responsible for producing the streaming data simulating music being extracted from Spotify in real time. After executing the file, a list of songs will be generated that will be sent as messages to the topic in Apache Kafka.
+In the file `Mini-Projeto7-Parte1.ipynb`, the Kafka Producer was implemented in Python and is responsible for producing the streaming data simulating music being extracted from Spotify in real time. After executing the file, a list of songs will be generated that will be sent as messages to the topic in Apache Kafka.
 
 The idea of the project is to read the user's music preferences on Spotify, using an API made available by Spotify itself, and recommend one more song from the list of songs sent by the producer.
