@@ -47,3 +47,9 @@ Apache Kafka acts as a distributed messaging system, allowing different componen
 Thus, when using a producer in Python to send messages to the topic in Kafka, you can later process them through a consumer with Spark Streaming or any other technology that supports reading streaming data from Kafka. This approach is widely used in real-time data and processing architectures, allowing the creation of scalable and fault-tolerant data pipelines.
 
 Execute in the terminal the commands present in the file `02-create_and_list_topic_kafka.txt` to create and view the Kafka topic.
+
+## Kafka Producer
+
+In the file Mini-Projeto7-Parte1.ipynb, the Kafka Producer was implemented in Python and is responsible for producing the streaming data simulating the songs present on Spotify. After executing the file, a list of songs will be generated that will be sent as messages to the topic in Apache Kafka.
+
+The idea of the project is to read the user's music preferences on Spotfy and recommend one more song from the list of songs sent by the producer.
