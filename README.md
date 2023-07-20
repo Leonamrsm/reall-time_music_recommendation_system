@@ -35,4 +35,5 @@ This will run the script from the 'docker-compose.yml' file, which contains inst
 
 The 'kafka' service depends on the 'zookeeper' service, ensuring that the zookeeper container is running before starting the Kafka cluster.
 
+### Creating Topic in Apache Kafka
 Ports 2181 and 9092 are being mapped to host ports so you can access Docker services outside of containers."
