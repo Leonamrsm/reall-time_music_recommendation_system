@@ -71,3 +71,11 @@ notebook `Mini-Projeto7-Parte2.ipynb` data is consumed in real time using Spark 
 Next, a song extracted from Spotfy is concatenated with songs extracted from Kafka. Following the pipeline the data is normalized before training the ML model.
 
 ## Machine Learning Modeling
+
+Only the k means clustering model with k equal to 3 was trained. After grouping the songs into 3 different groups, a function was created to select the song that has the shortest distance from the song extracted from the Spotify API.
+
+For example, the song `Stranger` by the band `MildOrange` was recommended after selecting the song 'Quarter' by the band 'Fuel' from the songs marked as 'liked' from my Spotify account.
+
+![](images/spark_songs.png)
+
+Note that there is a certain similarity in the attributes of the two songs. Better results can be obtained if the 'producer' can work with more songs. Other clustering algorithms would probably return better results.
