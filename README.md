@@ -60,6 +60,10 @@ The idea of the project is to read the user's music preferences on Spotify, usin
 
 In the file `Mini-Projeto7-Parte2.ipynb` the data stream is consumed from kafka.
 
-The consumed data is then processed. The user's preferences are also consumed in the same file from Spotify's own API. Then an ML model was built to finally obtain a recommendation system.
+Below are the results of the songs processed as a Spark dataframe, after being extracted and processed.
 
 ![](images/spark_songs.png)
+
+## Consuming Real Time Data with Spark Streaming from Spotfy via API
+
+Após extrais od dados do kafka no mesmo notebook `Mini-Projeto7-Parte2.ipynb`são consumidos dados em tempo real utilizando Spark streaming de uma API fornecida pelo Spotfy. Para testar você deve ter acesso a uma conta do Spotfy e dar like em músicas do seu interesse.
